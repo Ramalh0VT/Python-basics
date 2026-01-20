@@ -1,6 +1,6 @@
 import csv
 
-with open("data.csv","r") as infile, open("high_earners.csv", "w", newline="") as outfile, open ("low_earners.csv", "w") as outfile_2: 
+with open("data.csv","r") as infile, open("high_earners.csv", "w", newline="") as outfile, open ("low_earners.csv", "w", newline="") as outfile_2: 
     reader = csv.reader(infile)
     writer = csv.writer(outfile)
     writer_2 = csv.writer(outfile_2)
