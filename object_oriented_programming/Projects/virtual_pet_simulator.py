@@ -5,7 +5,7 @@ class Pet:
     def __init__(self, energy=50, hygiene=50, happiness=50, health=50):
         self.min_value = 0
         self.max_value = 100
-        # Renamed hunger to energy
+        
         self.energy = energy 
         self.hygiene = hygiene
         self.happiness = happiness
@@ -14,7 +14,7 @@ class Pet:
     def _clamp(self, value):
         return max(self.min_value, min(value, self.max_value))
 
-    # --- Properties (Updated to Energy) ---
+   
     @property
     def energy(self): return self._energy
     @energy.setter
@@ -37,12 +37,12 @@ class Pet:
 
     # --- Actions ---
     def feed(self):
-        self.energy += 20 # Restores energy
+        self.energy += 20 
         self.health += 5
         print("Fed the pet! Energy increased.")
 
     def play(self):
-        self.energy -= 10 # Drains energy
+        self.energy -= 10 
         self.happiness += 20
         print("Played with pet!")
 
@@ -55,7 +55,7 @@ class Pet:
         self.hygiene -= 5
         self.happiness -= 5
 
-    # --- The Magic Method ---
+    
     def __str__(self):
         return f"[{self.__class__.__name__}] Energy: {self.energy} | Hygiene: {self.hygiene} | Happiness: {self.happiness} | Health: {self.health}"
 
@@ -125,7 +125,7 @@ def main():
                 print("Invalid Option")
 
     while True:
-        # Notice we just print the object now! 
+         
         print(f"\n{current_pet}")
         
         action = input("Action (feed, play, bath, save, quit): ").lower()

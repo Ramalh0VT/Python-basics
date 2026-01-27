@@ -62,7 +62,7 @@ class User:
             print(f"Wait, {self.name}, you don't have {book.title}")
 
 
-# --- Execution (Moved outside the classes) ---
+
 
 my_city_library = Library()
 
