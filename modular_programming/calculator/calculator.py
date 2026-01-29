@@ -1,4 +1,4 @@
-from operations import add,mult,sub,div
+import operations
 
 def menu():
     print("=== SIMPLE CALCULATOR ===")
