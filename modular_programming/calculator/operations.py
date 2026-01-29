@@ -28,6 +28,7 @@ def add():
                 print("Invalid value, try again")
                 continue
     print(f"The result is: {final_result}")
+    print("Returning to the menu... ")
 
 def sub():
     final_result = 0
@@ -57,6 +58,7 @@ def sub():
                 print("Invalid value, try again")
                 continue
     print(f"The result is: {final_result}")
+    print("Returning to the menu... ")
 
 def mult():
     final_result = 0
@@ -86,6 +88,7 @@ def mult():
                 print("Invalid value, try again")
                 continue
     print(f"The result is: {final_result}")
+    print("Returning to the menu... ")
 
 def div():
     final_result = 0
@@ -115,6 +118,7 @@ def div():
                 print("Invalid value, try again")
                 continue
     print(f"The result is: {final_result}")
+    print("Returning to the menu... ")
 
 def quit():
     print("Quitting...")
