@@ -12,7 +12,7 @@ def menu():
         print("1- See the database to check for available cities to check temperature")
         print("2- Check a city temperature")
         print("3- Quit")
-        choice = input("")
+        choice = input("").strip()
         if choice == "1":
             value = data_fetcher.data()
             print("Here is the database of available cities:")
