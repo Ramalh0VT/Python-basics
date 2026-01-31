@@ -12,3 +12,6 @@ On this folder, i have complex projects and examples about object oriented progr
 
 ## Modular programming folder
 Different from the other folders, here i try my best to make modulated python coding, except i apply all the knowledge i gained from the other utilities i developed meanwhile time passed, maybe this is the last thing i will develop relating to python atleast for now since i don't plan to focus on it alot, and neither do i want to learn alot about GUI's on python, though it's likely i will spend time doing so.
+
+## Final note
+Well, this is the last change i will make on this README, since i am going to move onto python projects that use flask, i will just change the repository name to "Python basics" and then make another called "Python flask" so i know what repository is for what. This repository has value to me since it was the first GitHub repository i took seriously. Meanwhile im typing this, i still have to finish the task manager project, but then i will move onto the new repository.
